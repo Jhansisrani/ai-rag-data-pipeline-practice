@@ -4,8 +4,12 @@ from transformers import GPT2Tokenizer
 tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 
 # Your input text
+<<<<<<< HEAD
 text = "my name is jhansirani and i am a Data Engineer"
 
+=======
+text = "I am Jhansirani. I love Data Enginerring!"
+>>>>>>> 08a1fb12c0a5de7ecc4750d672231b5e68c5cec2
 
 # Tokenize the input
 tokens = tokenizer.tokenize(text)
